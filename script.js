@@ -4,7 +4,7 @@ $(function() {
     {
       action: 'type',
       strings: ["2024... Korea Polytechnics..."],
-      output: '<span class="gray">Seoul Jungsu Campus...</><br>&nbsp;',
+      output: '<span class="gray">Seoul Jungsu Campus...</span><br>&nbsp;',
       
       postDelay: 1000
     },

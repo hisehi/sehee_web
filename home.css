@@ -9,6 +9,7 @@ body{
     background: linear-gradient(to bottom,rgb(186,230,231,0.8),rgb(183,226,196,0.8));
     background-repeat: no-repeat ;
     background-size: cover;
+    cursor: url('img/캐릭터1.png'), auto;
 }
 
 
@@ -19,7 +20,7 @@ body{
     position: absolute;
     top: 144px;
     left: 550px;
-    z-index: 10;
+    z-index: 1;
 }
 .btns .container {
     position: relative;
@@ -51,7 +52,7 @@ button {
 .btns__menu .btn:hover {
     color: rgb(255, 255, 255);
     background-color: #b7e2c4;
-    z-index: 11;
+    z-index: 2;
 }
 .btns__menu img{
     width: 20px;
@@ -170,7 +171,7 @@ button {
     color: rgba(68, 68, 68);
     line-height: 2;
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 55px;
 }
 .profile_right p span{
     font-weight: 600;
@@ -179,7 +180,7 @@ button {
 
 .profile_right img{
     position: relative;
-    top: -210px;
+    top: -225px;
     left: 220px;
 }
 
@@ -304,7 +305,7 @@ button {
     transform:translate(-50%,-50%);
     background: #fff;
     width: 1000px;
-    height: 600px;
+    height: 700px;
     border-radius: 20px;
     text-align: center;
     box-sizing:border-box;
@@ -314,6 +315,7 @@ button {
     overflow: scroll;
     scrollbar-width: none;
     }
+    z-index: 3;
 }
 
 .modal img{
